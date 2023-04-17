@@ -264,7 +264,7 @@ ul li a:hover {
     display: flex;
     padding-top: 20px;
     font-family: Georgia ;
-    font-weight: bold;
+    font-weight: bolder;
     justify-content: center;
     align-items: center;
     flex-direction: column;
