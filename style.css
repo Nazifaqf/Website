@@ -356,20 +356,33 @@
     margin: 10px 0px;
 }
 
+.empcont {
+  text-align: left;
+  background-color: #ecf8fa;
+  color: black;
+  width :100%;
+  height:550px;
+  border : 1px solid rgb(20, 3, 132);
+  padding: 10px;
+}
+
 .empcont h2 {
   padding-left: 70px;
+  font-family: sans-serif;
 }
 
 .empcont ul li {
   padding-left: 70px;
   padding-top: 10px;
   font-weight: bold;
+  font-family: sans-serif;
 }
 
 .empcont p {
   padding-left: 70px;
   padding-right: 70px;
   padding-bottom: 10px;
+  font-family: Georgia;
 }
 
 /* About by Alep */
