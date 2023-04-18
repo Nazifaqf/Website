@@ -76,21 +76,21 @@
     height: 70px;
 }
 
-ul {
+.menu ul {
     float: left;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-ul li {
+.menu ul li {
     list-style: none;
     margin-left: 160px;
     margin-top: 27px;
     font-size: 14px;
 }
 
-ul li a {
+.menu ul li a {
     text-decoration: none;
     color: black;
     font-family: Arial;
@@ -98,7 +98,7 @@ ul li a {
     transition: 0.4s ease-in-out;
 }
 
-ul li a:hover {
+.menu ul li a:hover {
     color:rgb(66, 133, 244);
 }
 
@@ -354,6 +354,22 @@ ul li a:hover {
     overflow: hidden;
     text-overflow: ellipsis;
     margin: 10px 0px;
+}
+
+.empcont h2 {
+  padding-left: 70px;
+}
+
+.empcont ul li {
+  padding-left: 70px;
+  padding-top: 10px;
+  font-weight: bold;
+}
+
+.empcont p {
+  padding-left: 70px;
+  padding-right: 70px;
+  padding-bottom: 10px;
 }
 
 /* About by Alep */
