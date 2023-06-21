@@ -19,10 +19,59 @@
     height: 109vh;
 }
 
+.aboutpage {
+    width: 100%x;
+    background:linear-gradient(to top, rgb(255, 255, 251), rgba(180, 217, 239, 0.73) 50%);
+    background-position: center ;
+    background-size: cover;
+    height: 109vh;
+}
+
+.blogpage {
+    width: 100%x;
+    background:linear-gradient(to top, rgb(255, 255, 255), rgba(180, 217, 239, 0.73) 50%);
+    background-position: center ;
+    background-size: cover;
+    height: 109vh;
+}
+
+.slpage {
+  width: 100%x;
+  background:linear-gradient(to top, rgb(255, 255, 251), rgba(180, 217, 239, 0.73) 50%),  url(background.jpeg);
+  background-position: center ;
+  background-size: cover;
+  height: 109vh;
+}
+
+.eppage {
+  width: 100%x;
+  background:linear-gradient(to top, rgb(255, 255, 251), rgba(180, 217, 239, 0.73) 50%),  url(background1.jpeg);
+  background-position: center ;
+  background-size: cover;
+  height: 109vh;
+}
+
+.Healthpage {
+  width: 100%x;
+  background:linear-gradient(to top, rgb(255, 255, 251), rgba(180, 217, 239, 0.73) 50%);
+  background-position: center ;
+  background-size: cover;
+  height: 109vh;
+}
+
+
 .navbar {
-    width: 1200px;
-    height: 75px;
-    margin: auto;
+    position:sticky;
+    z-index: 1000;
+    top: 0;
+    right: 0;
+    left: 0;
+    height: 80px;
+    display: flex;
+    background-color: rgb(194, 221, 238);
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+  
 }
 
 .icon {
@@ -35,13 +84,14 @@
     float: left;
     width: 100px;
     height: 80px;
+    border-radius: 20px;
 }
 
 .logo {
     color: black;
     font-size: 40px;
     font-family:Arial Narrow Bold;
-    padding-left: 20px;
+    padding-left: 60px;
     float: left;
     padding-top: 10px;
 }
@@ -52,21 +102,21 @@
     height: 70px;
 }
 
-ul {
+.menu ul {
     float: left;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-ul li {
+.menu ul li {
     list-style: none;
     margin-left: 160px;
     margin-top: 27px;
     font-size: 14px;
 }
 
-ul li a {
+.menu ul li a {
     text-decoration: none;
     color: black;
     font-family: Arial;
@@ -74,7 +124,7 @@ ul li a {
     transition: 0.4s ease-in-out;
 }
 
-ul li a:hover {
+.menu ul li a:hover {
     color:rgb(66, 133, 244);
 }
 
@@ -132,8 +182,8 @@ ul li a:hover {
     padding: 15px 30px;
     box-sizing: border-box;
     cursor: pointer;
-    margin-right: 108px;
-    margin-left: 108px;
+    margin-right: 105px;
+    margin-left: 105px;
     margin-top: 200px;
     margin-bottom: 50px;
     background-image: url(3.png);
@@ -166,8 +216,8 @@ ul li a:hover {
     padding: 15px 60px;
     box-sizing: border-box;
     cursor: pointer;
-    margin-right: 108px;
-    margin-left: 108px;
+    margin-right: 105px;
+    margin-left: 105px;
     margin-top: 200px;
     margin-bottom: 50px;
     background-image: url(5.jpg);
@@ -200,8 +250,8 @@ ul li a:hover {
     padding: 15px 60px;
     box-sizing: border-box;
     cursor: pointer;
-    margin-right: 108px;
-    margin-left: 108px;
+    margin-right: 105px;
+    margin-left: 105px;
     margin-top: 200px;
     margin-bottom: 50px;
     background-image: url(6.jpg);
@@ -330,4 +380,688 @@ ul li a:hover {
     overflow: hidden;
     text-overflow: ellipsis;
     margin: 10px 0px;
+}
+
+.empcont {
+  text-align: left;
+  background-color: #ecf8fa;
+  color: black;
+  width :100%;
+  height:550px;
+  border : 1px solid rgb(20, 3, 132);
+  padding: 10px;
+}
+
+.empcont h2 {
+  padding-left: 70px;
+  font-family: sans-serif;
+}
+
+.empcont ul li {
+  padding-left: 70px;
+  padding-top: 10px;
+  font-weight: bold;
+  font-family: sans-serif;
+}
+
+.empcont p {
+  padding-left: 70px;
+  padding-right: 70px;
+  padding-bottom: 10px;
+  font-family: Georgia;
+}
+
+/* About by Alep */
+  
+  html {
+    box-sizing: border-box;
+  }
+  
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+  
+  .column {
+    float: left;
+    width: 33.3%;
+    margin-bottom: 16px;
+    padding: 0 8px;
+  }
+  
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    margin: 8px;
+    text-align: center;
+
+  }
+  .card img {
+    width: 50%;
+  }
+
+  .cardy {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    margin: 8px;
+    text-align: center;
+
+  }
+  .card img {
+    width: 53%;
+  }
+
+  .carda {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    margin: 8px;
+    text-align: center;
+
+  }
+  .carda img {
+    width: 35%;
+  }
+
+  .cardb {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    margin: 8px;
+    text-align: center;
+
+  }
+  .cardb img {
+    width: 31%;
+  }
+
+  .cardc {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    margin: 8px;
+    text-align: center;
+
+  }
+  .cardc img {
+    width: 29%;
+  }
+
+  
+  .about-section {
+    padding: 50px 70px;
+    text-align: left;
+    background-color: #474e5d;
+    color: white;
+  }
+  
+  .container {
+    padding: 0 16px;
+  }
+  
+  .container::after, .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  .title {
+    color: grey;
+  }
+  
+  .button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+  }
+  
+  .button:hover {
+    background-color: #555;
+  }
+  
+  @media screen and (max-width: 650px) {
+    .column {
+      width: 100%;
+      display: block;
+    }
+  }
+  
+  .leadership-text {
+    padding: 50px 70px;
+    text-align: left;
+    background-color: #ececec;
+    color: black;
+    width :100%;
+      height:300px;
+      border : 2px solid black;
+  }
+  
+  .community-text {
+    padding: 50px 70px;
+    text-align: left;
+    background-color: #ececec;
+    color: black;
+    width :100%;
+      height:300px;
+      border : 2px solid black;
+  }
+  
+  .education-text {
+    padding: 50px 70px;
+    text-align: left;
+    background-color: #ececec;
+    color: black;
+    width :100%;
+      height:300px;
+      border : 2px solid black;
+  }
+  
+  .partnership-text {
+    padding-left: 70px;
+    padding-bottom: 30px;
+    color: black;
+  }
+  
+  .center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+
+  /* Blog by Alep*/
+  
+  .blog-section {
+  padding: 50px 50px 50px 80px;
+  text-align: left;
+  background-color: #ffffff;
+  color: black;
+  }
+  
+  .button1 {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 10%;
+  }
+  
+  .issues-image {
+    padding-left: 50px;
+    filter: blur(8px);
+    -webkit-filter: blur(3px);
+    height: 500px;
+    width: auto;
+    background-repeat: no-repeat;
+    background-size: 75% 50%;
+    position: relative;
+  }
+
+  .issues-image img {
+    width: 1000px;
+    height: 500px;
+  }
+  
+  .issues-text {
+    padding-top: 120px;
+    position: absolute;
+    top: 53%;
+    left: 34%;
+    right: 10%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-shadow:
+    -1px -1px 0 #000, /*top left*/
+    1px -1px 0 #000, /*top right*/
+    -1px 1px 0 #000, /*bottom left*/
+    1px 1px 0 #000; /*bottom right*/
+  }
+  
+  .programmes-image {
+    padding-left: 50px;
+    filter: blur(8px);
+    -webkit-filter: blur(8px);
+    height: 500px;
+    width: auto;
+    background-repeat: no-repeat;
+    background-size: 75% 50%;
+    position: relative;
+  }
+
+  .programmes-image img {
+    width: 1000px;
+    height: 500px;
+  }
+  
+  .programmes-text {
+    padding-top: 280px;
+    position: absolute;
+    top: 122%;
+    left: 34%;
+    right: 10%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-shadow:
+    -1px -1px 0 #000, /*top left*/
+    1.3px -1.3px 0 #000, /*top right*/
+    -1px 1px 0 #000, /*bottom left*/
+    1px 1px 0 #000; /*bottom right*/
+  }
+  
+  .challenges-image {
+    padding-left: 50px;
+    filter: blur(600px);
+    -webkit-filter: blur(8px);
+    height: 500px;
+    width: auto;
+    background-repeat: no-repeat;
+    background-size: 75% 50%;
+    position: relative;
+  }
+
+  .challenges-image img {
+    width: 1000px;
+    height: 450px;
+  }
+  
+  .challenges-text {
+    padding-top: 450px;
+    position: absolute;
+    top: 188%;
+    left: 34%;
+    right: 10%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-shadow:
+    -1.3px -1.3px 0 #000, /*top left*/
+    1.5px -1.5px 0 #000, /*top right*/
+    -1px 1px 0 #000, /*bottom left*/
+    1px 1px 0 #000; /*bottom right*/
+  }
+
+  /* social by bo */
+ .row{
+  display: flex;
+  height: 88%;
+  align-items: center;
+ }
+ .col{
+  flex-basis: 50%;
+  padding-left: 50px;
+ }
+ 
+ .col h1 {
+  font-size: 100px;
+  color: #fff;
+ }
+
+ .col h5{
+  color: #000;
+  text-shadow: 0 0 5px #999;
+  font-family: Georgia;
+}
+
+ button{
+  width: 180px;
+  color: #000;
+  font-size: 12px;
+  padding: 12px 0;
+  color: white;
+  font-weight: bold;
+  background: rgb(66, 133, 244);
+  border: 0;
+  border-radius: 20px;
+  outline: none;
+  margin-top: 30px;
+ }
+ .slcard{
+  float: left;
+  width: 200px;
+  height: 230px;
+  display: inline-block;
+  border-radius: 10px;
+  padding: 15px 25px;
+  box-sizing: border-box;
+  cursor: pointer;
+  margin: 10px 15px;
+  background-position: center;
+  background-size: cover;
+  transition: transform 0.5s;
+ }
+ .slcard1{
+  background-image: url(pic1.jpg);
+ }
+ .slcard2{
+  background-image: url(pic2.jpg);
+ }
+ .slcard3{
+  background-image: url(picc3.jpg);
+ }
+ .slcard4{
+  background-image: url(pic4.jpg);
+ }
+.slcard:hover{
+  transform: translateY(-10px);
+}
+.slcard p{
+  color: #fff;
+  text-shadow: 2px 2px 4px #000000;
+  font-size: 8px;
+}
+
+.slcard h1 {
+  font-size: 100px;
+  color: #ffffff;
+}
+
+.slcard h5 {
+  color: #000;
+  text-shadow: 0 0 5px #999;
+}
+
+.slcard p {
+  font-size: 11px;
+  line-height: 15px;
+  color: #ffffff;
+}
+
+.slcard a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.slcard a:hover {
+  text-decoration: underline;
+}
+
+/*education page by bo */
+
+ .epcard{
+  float: left;
+  width: 200px;
+  height: 230px;
+  display: inline-block;
+  border-radius: 10px;
+  padding: 15px 25px;
+  box-sizing: border-box;
+  cursor: pointer;
+  margin: 10px 15px;
+  background-position: center;
+  background-size: cover;
+  transition: transform 0.5s;
+ }
+ .epcard5{
+  background-image: url(img1.jpg);
+ }
+ .epcard6{
+  background-image: url(img2.jpeg);
+ }
+ .epcard7{
+  background-image: url(img3.jpg);
+ }
+ .epcard8{
+  background-image: url(img4.jpg);
+ }
+.epcard:hover{
+  transform: translateY(-10px);
+}
+.epcard p{
+  color: #fff;
+  text-shadow: 2px 2px 4px #000000;
+  font-size: 8px;
+}
+
+.epcard a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.epcard a:hover {
+  text-decoration: underline;
+}
+
+/*Healthpage by Kelly*/
+
+/*Landing CSS*/
+.landing{
+  background-color: #007bff;
+  display: flex;
+  flex-direction: row;
+  justify-content:space-between ;
+  align-items: center;
+  padding: 0 10vw 0 10vw;
+  height: 100vh;
+}
+.landingText h1{
+  font-size: 6vw;
+  margin: 0 !important;
+}
+.landingText h3{
+  margin: 6px !important;
+  font-size: 15px;
+  line-height: 1.8;
+  color: #000;
+  font-family: Arial, sans-serif;;
+  padding-right: 20px;
+}
+.landingText .btn{
+  text-decoration: none;
+  width: 120px;
+  margin-top: 30px;
+  padding: 14px 20px 12px 20px;
+  background-color: #fff;
+  border-radius: 45px;
+  text-align: center;
+}
+.landingText.btn.a{
+  font-size: 1.2vw;
+  color: #fff;
+}
+.landingImage img{
+  width: 28vw;
+}
+
+/*Service CSS*/
+.about{
+  height: 1350px;
+  padding: 50px;
+  font-family: Arial;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+
+.aboutText{
+  position: relative;
+  padding: 0 50px ;
+  height: inherit;
+}
+
+.aboutText h1{
+  position: relative;
+  left: 110px;
+  padding-bottom: 20px;
+  padding-top: 60px;
+}
+.aboutText img{
+  width: 10vw;
+  position: absolute;
+  top: 50px;
+}
+
+.aboutText li {
+  line-height: 2;
+}
+
+.aboutText h3 {
+  line-height: 2;
+}
+
+.aboutText p {
+  line-height: 2;
+}
+
+.aboutList{
+  width:50%;
+}
+
+.aboutList ol{
+  list-style: none;
+  color: #e0501b;
+}
+.aboutList ol li{
+  font-size: 34px;
+  position: relative;
+  margin-bottom: 20px;
+  border-bottom: 1px solid #ebebeb;
+}
+.aboutList li p{
+  font-size: 32px;
+  font-family: sans-serif;
+  line-height: 1.6;
+  
+  text-align: left;
+  padding-left: 60px;
+  line-height: 30px;
+ 
+}
+.aboutList li span{
+  position: inherit;
+  list-style: 25px;
+  font-weight: 600;
+}
+
+.aboutList a{
+  padding-top: 0;
+  text-decoration: none;
+  color:#2f8be0;
+}
+
+/* Info Section CSS*/
+
+
+.infoSection{
+  height: 600px;
+}
+
+.infoSection h1{
+  padding-top: 120px;
+}
+
+
+.infoHeader{
+    text-align: center;
+    margin-bottom: 40px;
+}
+.infoCards{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 120px 0 120px 0;
+}
+.infoCards .card{
+        position: relative;
+        height: 360px;
+        width: 360px;
+        background: #F8C8DC;
+        box-shadow: 0 10px 22px rgba(0, 0, 0, 9), 0 10px 10px rgba(0, 0, 0, 9);
+
+
+    }
+    .infoCards .one .cardoneImg{
+        width: 150px;
+        position: absolute;
+        top:-50px;
+        right: -50px;
+    }
+    .infoCards .two .cardtwoImg{
+        width: 150px;
+        position: absolute;
+        top:-50px;
+        right: -50px;
+    }
+    .infoCards .three .cardthreeImg{
+        width: 150px;
+        position: absolute;
+        top:-50px;
+        right: -30px;
+    }
+    .cardbgone{
+        height: 150px;
+        background-color: #fff;
+    }
+    .cardbgtwo{
+        height: 150px;
+        background-color: #fff;
+    }
+    .cardbgthree{
+        height: 150px;
+        background-color: #fff;
+    }
+    .cardContent{
+      font-family: sans-serif;
+        text-align: left;
+        padding: 0 20px;
+    }
+
+    .cardContent h2 {
+      padding: 20px 0;
+
+    }
+
+    .cardContent p{
+        line-height: 30px;
+        opacity: 0.6;
+    }
+    .cardContent .cardBtn{
+        position: absolute;
+        right: 20px;
+        padding: 10px;
+        background-color: #ededed;
+        width: 40px;
+        height: 20px;
+        border-radius: 6px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        transition: all ease-in-out .2s;
+    }
+    .cardContent .cardBtn:hover{
+        background-color: #2f8be0;
+    }
+    .cardContent .cardBtn .cardIcon{
+        position: relative;
+        top: 0px;
+        left: 0px;
+        width: 16px;
+    }
+
+
+.banner{
+  height:400px;
+  background-color: #2f8be0;
+  display: flex;
+  flex-direction: row;
+  padding: 30px;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.bannerText h1{
+  padding-top: 0;
+  font-size: 3vw;
+  color: #000;
+  font-weight: 600;
+}
+
+.bannerText img{
+  padding: 20px 0;
+  width: 10vw;
+  margin-right: 20px;
+}
+.bannerImg img{
+  width: 20vw;
 }
